@@ -29,7 +29,7 @@ const App = () => {
             title : 'Screen A Title',
             drawerIcon : ({focused}) => (
               <FontAwesome
-                name = "artstation"
+                name = "audio-description"
                 size = {focused ? 25 : 20}
                 color = {focused ? '#008' : '#000'}
               />
