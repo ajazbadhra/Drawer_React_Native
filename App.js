@@ -21,7 +21,14 @@ const Drawer = createDrawerNavigator()
 const App = () => {
   return (
     <NavigationContainer>
-      <Drawer.Navigator>
+      <Drawer.Navigator
+        screenOptions = {{
+          headerTitleStyle : {
+            fontStyle : 'italic'
+          }
+        }
+        }
+      >
         <Drawer.Screen 
           name = 'screen_A'
           component = {ScreenA}
